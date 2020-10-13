@@ -1,11 +1,11 @@
-/* ================================= 
-  Nav bar
-==================================== */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 * {
   box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 }
 body {
-  font-family: "Montserrat", sans-serif;
+  
   line-height: 1.6;
   margin: 0;
   min-height: 100vh;
@@ -24,6 +24,11 @@ h2, h3, a {
 a {
   text-decoration: none;
 }
+
+/* ================================= 
+  Nav bar
+==================================== */
+
 
 .logo {
   margin: 0;
@@ -89,78 +94,31 @@ a {
     justify-content: space-between;
   }
 }
-
 /* ================================= 
-  Formulär
+  Home content
 ==================================== */
-.container {
-  width: 80%;
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 20px 50px 20px 50px;
-  background: rgb(232, 0, 97, 0.6);
-  border-radius: 40px;
 
-
-}
-
-.container * {
-  box-sizing: border-box;
-}
-
-.flex-outer,
-.flex-inner {
-  list-style-type: none;
-  padding: 0;
-}
-
-.flex-outer {
-  max-width: 800px;
-  margin: 0 auto;
-}
-
-.flex-outer li,
-.flex-inner {
+.content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
+  font-size: large;
+  padding: 10px;
+  margin-left: 25%;
+  max-width: 50%;
+  
+
+}
+.content p {
+  background-color: rgb(224, 48, 157);
+  text-align: center;
+  border-radius: 15px;
 }
 
-.flex-inner {
-  padding:  8px;
-  justify-content: space-between; 
+.content img {
+  border-radius: 10px;
 }
 
-.flex-outer > li:not(:last-child) {
-  margin-bottom: 20px;
-}
 
-.flex-outer li label,
-.flex-outer li p {
-  padding: 8px;
-  font-weight: 300;
-  letter-spacing: .09em;
-  text-transform: uppercase;
-}
 
-.flex-outer > li > label,
-.flex-outer li p {
-  flex: 1 0 120px;
-  max-width: 220px;
-}
-
-.flex-outer > li > label + *,
-.flex-inner {
-  flex: 1 0 220px;
-}
-
-.flex-outer li p {
-  margin: 0;
-}
-
-.flex-outer li input:not([type='select']),
-.flex-outer li textarea {
-  padding: 15px;
-  border: none;
-}
 

@@ -112,11 +112,14 @@ a {
 .content p {
   background-color: rgb(224, 48, 157);
   text-align: center;
+  font-size: x-large;
+  border: 10px solid rgb(224, 48, 157);
   border-radius: 15px;
 }
 
 .content img {
-  border-radius: 10px;
+  border: 50px;
+  border-radius: 20px;
 }
 
 

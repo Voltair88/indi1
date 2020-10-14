@@ -76,6 +76,57 @@ ul {
     -moz-border-radius: 5px;
     border-radius: 5px;
   }
+  /* ================================= 
+  Footer
+==================================== */
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 25%;
+    }
+    .content-footer {
+      background: #000000;
+      padding: 2em;
+      border-top: 8px solid #EDEDED;
+      color: #EDEDED;
+    }
+    
+    .content-footer > p {
+      line-height: 1.3em;
+      text-align: center;
+      font-size: 2em;
+    }
+    
+    .social {
+      text-align: center;
+      padding: 0;
+    }
+    
+    .social > li {
+      display: inline-block;
+      line-height: 1.3em;
+      margin-right: 2em;
+      font-size: 2em;
+    }
+    a {
+      color: #EDEDED;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: #262626;
+      -webkit-transition: all 0.2s ease;
+      -moz-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+    }
+    
+    .social li:last-child {
+      margin-right: 0;
+    }
   
   /* ================================= 
     Media Queries

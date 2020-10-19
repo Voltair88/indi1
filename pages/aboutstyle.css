@@ -73,7 +73,7 @@
 ==================================== */
 
    section {
-     max-width: 50em;
+    max-width: 90em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3em;
@@ -86,18 +86,21 @@
   }
   
   h2 {
-    font-size: 4em;
+    font-size: 2.5vmin;
+    font-size: 3.3vmax;
     color: #EDEDED;
   }
   
   h3 {
     font-style: italic;
-    font-size: 2.5em;
+    font-size: 1.3vmin;
+    font-size: 2.3vmax;
     color: #EDEDED;
   }
   
   section p {
-    font-size: 2em;
+    font-size: 1vmin;
+    font-size: 2vmax;
     line-height: 1.3em;
     color: #EDEDED;
   }
